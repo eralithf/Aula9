@@ -6,19 +6,19 @@
     android:padding="16dp">
 
     <EditText
-        android:id="@+id/PlainNome"
+        android:id="@+id/editNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nome" />
 
     <EditText
-        android:id="@+id/PlainTel"
+        android:id="@+id/editTel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Telefone" />
 
     <EditText
-        android:id="@+id/PlainEmail"
+        android:id="@+id/editEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email" />
@@ -26,25 +26,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
 
         <Button
-            android:id="@+id/btnLimpar"
-            android:layout_width="0dp"
-            android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:text="Limpar" />
-
-        <Button
-            android:id="@+id/btnSalvar"
+            android:id="@+id/btnSalvarEditar"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="Salvar" />
-    </LinearLayout>
 
-    <ListView
-        android:id="@+id/lista"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/btnExcluirEditar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Excluir" />
+
+        <Button
+            android:id="@+id/btnVoltarEditar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Voltar" />
+    </LinearLayout>
 </LinearLayout>
